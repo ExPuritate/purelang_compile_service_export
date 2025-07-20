@@ -4,4 +4,4 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-global = { workspace = true }
+global = { package = "pure_lang_global", git = "https://github.com/ExPuritate/purelang_global.git" }
